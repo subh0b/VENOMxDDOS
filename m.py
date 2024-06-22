@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-#By @venomXCRAZY
+#By @babaXCRAZY
 
 import telebot
 import subprocess
@@ -8,10 +8,10 @@ import datetime
 import os
 
 # insert your Telegram bot token here
-bot = telebot.TeleBot('TOKEN')
+bot = telebot.TeleBot('7076061756:AAHotpsjPYata1yTzk2V4bgXePrEUN82H68')
 
 # Admin user IDs
-admin_id = ["YOUR ID"]
+admin_id = ["5715330632"]
 
 # File to store allowed user IDs
 USER_FILE = "users.txt"
@@ -375,4 +375,4 @@ def broadcast_message(message):
 
 
 bot.polling()
-#By venom crazy  @venomXcrazy
+#By baba crazy  @babaXcrazy
